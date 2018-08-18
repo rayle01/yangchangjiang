@@ -1,5 +1,5 @@
 作业说明：
-1、存入创世区块内容为"YCJ创世区块"
+1、存入区块测试内容为"第二个区块吧"
 2、db能够很好查询
 3、windows 编译为 go build -o main.exe main.go
 
