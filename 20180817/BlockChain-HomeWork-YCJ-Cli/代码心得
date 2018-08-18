@@ -4,7 +4,8 @@
 3、windows 编译为 go build -o bc.exe main.go
 4、
 bc.exe createblockchain “”
-bc.exe ...才能执行，windows坑，斜杠，或者编译时不带exe都执行不了
+bc.exe ...才能执行，windows坑，斜杠，或者编译时不带exe都执行不了。
+改半天，试了半天，才行填了坑，虽然很小，go不熟的注意啦
 学习心得与疑问
 1、持久化后，迭代遍历区块链db数据，如果有1亿个区块，甚至更多，查询第一个区块的时候，会很慢
 2、能不能用height作为key呢
